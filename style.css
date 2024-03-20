@@ -1,0 +1,148 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    background-color: #193cd937;
+    position: flex;
+    box-shadow: 0px 2px 5px 0px #000;;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px #000;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+a:link {
+    color: green;
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: red;
+    display: flex;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: yellow;
+    display: flex;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.join-button {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    padding-top: 15px;
+    width: 10%;
+    height: 50px;
+    background-color: #f4c836;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #36f4a2;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f4c836;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.footer-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: #000 2px 2px 2px;
+}
